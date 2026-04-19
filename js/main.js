@@ -1,5 +1,7 @@
 // ATTIA.COM - Main JavaScript
 // Smooth scrolling, mobile navigation, and interactive features
+// Version: 1.0.0
+// Published: 2026-04-19
 
 document.addEventListener('DOMContentLoaded', function() {
     

@@ -2,7 +2,7 @@
 
 ![Attia Logo](https://www.attia.com/AttiaLogo.png)
 
-**Version:** 1.0.1  
+**Version:** 1.0.2  
 **Published:** 2026-04-19
 
 A modern, professional website dedicated to uniting the Attia family worldwide. Created by **Olivier Attia** to build a global community around the proud Attia name.

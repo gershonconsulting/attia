@@ -1,0 +1,93 @@
+================================================================
+HANDOFF.txt  -  attia
+Written by: Claude (nightly run) - token-limit handoff protocol
+Date: 2026-10-27
+Reason: repo had no HANDOFF.txt. Another AI can continue this work
+        from this file alone.
+================================================================
+
+0. WHO YOU ARE READING THIS
+----------------------------------------------------------------
+You are an AI assistant (ChatGPT, Gemini, Copilot, or another Claude
+session) taking over work on this repository for Olivier Attia,
+founder / CTO of Gershon Consulting LLC.
+
+Read the MASTER HANDOFF first:
+  github.com/gershonconsulting/memory -> HANDOFF.txt
+It carries the full operating rules, the technical defaults, and the
+index of all repos.
+
+CRITICAL OPERATING RULES - do not break these:
+  * Olivier does NOT use a terminal, CLI, git or PowerShell. NEVER
+    give him commands, scripts, .bat files or 'just run this' steps.
+  * He does NOT upload, download, move or save files. If a file has
+    to get somewhere, YOU find the route and execute it.
+  * End every actionable reply with:
+      GREEN CHECK = ready for him to test (+ the link)
+      RED CROSS   = something still to do (+ exactly 3 options he can
+                    actually action - never a CLI step)
+  * Executors: Ariel = code and repo work. Charles = Chrome extension
+    and web admin panels (Cloudflare, GitHub settings, DNS, publishing).
+
+1. WHAT THIS REPO IS
+----------------------------------------------------------------
+Product / site name : ATTIA.COM - "Unite the Attia Family Worldwide"
+Live URL            : https://www.attia.com (code and README use attia.com;
+                      the master index calls this repo the attia.net front
+                      end - the private PHP app is the separate "family"
+                      repo). Confirm which domain actually serves it.
+What it does        : Static community landing page: offers free @attia.com
+                      email addresses to people with the Attia surname,
+                      famous Attias, name origins, a regional "community map",
+                      contact cards to Olivier.
+Who uses it         : Attia family members worldwide (public).
+
+2. STACK AND DEPLOY ROUTE
+----------------------------------------------------------------
+Language / framework: Static HTML + css/style.css + js/main.js, no build
+Hosting             : not stated in the repo (README step 4 "Deploy to
+                      production hosting" is open). Default would be
+                      Hostinger shared.
+DNS / registrar     : Tierra.net; Cloudflare for CDN/DNS/SSL
+Deploy method       : none in the repo (no workflow).
+Default branch      : main
+How to ship a change: merge to main, then have Charles upload/publish (or add
+                      the standard FTP workflow used by balines57).
+Secrets / env vars  : none
+
+3. RECENTLY DONE  [DONE]
+----------------------------------------------------------------
+- 2026-04-19: v1.0.2 published (mailto links fixed, version markers bumped).
+
+4. PENDING  [TODO]
+----------------------------------------------------------------
+- Confirm where the site is hosted and add an auto-deploy workflow.
+
+5. MISSING / NOT BUILT YET
+----------------------------------------------------------------
+- No deploy pipeline, no analytics, no automated @attia.com signup (requests
+  go to Olivier by mailto).
+
+6. KNOWN BUGS / NEEDS FIXING
+----------------------------------------------------------------
+- Domain naming mismatch (attia.com vs attia.net) across README / master
+  index.
+
+7. NEXT ACTION - START HERE
+----------------------------------------------------------------
+The single most valuable next step is:
+  -> Verify which domain/host serves this page, then record it in the master
+     HANDOFF index.
+
+8. GOTCHAS / HARD-WON LESSONS
+----------------------------------------------------------------
+- Version markers live in README and page; bump both on each release.
+
+9. CONTACT / ESCALATION
+----------------------------------------------------------------
+Olivier Attia - oattia@gmail.com
+Report mailbox - report@gershonconsulting.com
+
+================================================================
+END OF HANDOFF
+================================================================
